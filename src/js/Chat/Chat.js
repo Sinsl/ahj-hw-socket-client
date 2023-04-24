@@ -63,7 +63,7 @@ export default class Chat {
   }
 
   openChat() {
-    const ws = new WebSocket('ws://localhost:7070');
+    const ws = new WebSocket('ws://https://ahj-hw-socket-server.onrender.com');
     const chatInput = this.msgForm.querySelector('.send');
 
     this.msgForm.addEventListener('submit', (e) => {
