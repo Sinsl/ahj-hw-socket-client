@@ -1,5 +1,5 @@
 export default async function requestServer(options, callback) {
-  const url = 'http://localhost:7070' + options.url;
+  const url = 'https://ahj-hw-socket-server.onrender.com' + options.url;
   try {
     const response = await fetch(url, {
       method: options.method,
