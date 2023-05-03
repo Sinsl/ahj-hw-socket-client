@@ -1,4 +1,4 @@
-# ДЗ к блоку "EventSource, Websockets"
+# Блок "EventSource, Websockets"
 ---
 ### **проверка AppVeyor**
 
